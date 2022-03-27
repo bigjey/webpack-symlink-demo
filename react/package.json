@@ -4,12 +4,12 @@
   "main": "dist/main.js",
   "license": "MIT",
   "dependencies": {
-    "@babel/cli": "^7.17.6",
-    "@babel/core": "^7.17.8",
     "bridge": "link:../bridge",
     "to-array": "^0.1.4"
   },
   "devDependencies": {
+    "@babel/cli": "^7.17.6",
+    "@babel/core": "^7.17.8",
     "@babel/preset-env": "^7.16.11",
     "@babel/preset-flow": "^7.16.7",
     "babel-loader": "^8.2.4",
@@ -20,6 +20,6 @@
   },
   "scripts": {
     "build": "webpack",
-    "dev": "webpack serve"
+    "start": "node dist/main"
   }
 }
